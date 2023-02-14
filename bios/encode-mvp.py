@@ -160,6 +160,7 @@ if __name__ == "__main__":
                 # Get model output
                 H = encode(bert, txts)
                 # Save model output
+                print(H.shape)
                 path = (
                     "encodings/linear-adv/{}_{}_cls.npy".format(mode, rand_seed)
                     if finetuning_type == "adv"
