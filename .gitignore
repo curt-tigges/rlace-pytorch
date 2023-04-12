@@ -3,3 +3,5 @@ glove/glove_data/data.pickle
 bios/bios_data
 bios/encodings
 /bios/bios_dat
+sentiment/data
+sentiment-regression/data
